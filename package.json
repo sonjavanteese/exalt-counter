@@ -1,4 +1,17 @@
 {
- "name": "@wcd/sonjavanteese.exalt-counter",
- "version": "0.0.0"
+    "name": "lorem-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "exalt serve",
+        "build": "exalt build",
+        "start": "exalt start"
+    },
+    "dependencies": {
+        "@exalt/core": "^0.3.7"
+    },
+    "devDependencies": {
+        "@exalt/cli": "^0.3.0",
+        "@exalt/toolchain": "^0.3.1"
+    }
 }

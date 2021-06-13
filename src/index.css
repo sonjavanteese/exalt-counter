@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.section { padding: 1rem clamp(1rem, 5%, 3rem); margin: 0 auto; }
+
+.section.small { max-width: 800px; }

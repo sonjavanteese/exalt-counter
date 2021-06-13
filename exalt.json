@@ -1,0 +1,5 @@
+{
+    "name": "lorem-app",
+    "input": "src/index.js",
+    "toolchain": "@exalt/toolchain"
+}
